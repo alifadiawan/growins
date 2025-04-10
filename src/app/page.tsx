@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Categories } from "./components/Categories";
 import Card from "./components/Card";
-import { Award, Calendar, Clock, Star } from "lucide-react";
+import { Award, Calendar, Clock } from "lucide-react";
 import Link from 'next/link';
 
 

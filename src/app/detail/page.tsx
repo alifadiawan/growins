@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Image from "next/image";
-import { ArrowLeft, Clock, Star, Users, BookOpen, Award, Play } from "lucide-react"
+import { Clock, Star, Users, BookOpen, Award, Play } from "lucide-react"
 
 const detail = () => {
     return (
