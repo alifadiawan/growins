@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { Categories } from "./components/Categories";
 import Card from "./components/Card";
-import { Award, Calendar, Clock } from "lucide-react";
+import { Award, Calendar, Clock, Star } from "lucide-react";
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -103,6 +104,146 @@ export default function Home() {
           </div>
         </div>
       </Card >
+
+
+      <div className="px-6 py-8 border-b border-gray-100 text-center gap-5">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
+          Kursus <span className="text-teal-600">Terbaru</span> Kami
+        </h2>
+      </div>
+
+      <Card>
+        <div className="flex flex-row gap-5 overflow-x-auto whitespace-nowrap">
+          <div className="w-96 mx-auto rounded-lg shadow-lg bg-white border border-gray-200">
+            {/* Card Header with Image */}
+            <div className="relative w-full h-64">
+              <Image
+                src="/image-15.png"
+                alt="Digital Marketing Bootcamp"
+                fill={true}
+                className="object-cover"
+              />
+            </div>
+
+            {/* Card Title */}
+            <div className="p-4 pb-2">
+              <h1 className="text-xl font-bold text-gray-900 leading-tight truncate">
+                DIGITAL MARKETING: FULLSTACK INTENSIVE BOOTCAMP
+              </h1>
+            </div>
+
+            {/* Card Body with Price and CTA */}
+            <div className="p-4 flex flex-row justify-between items-center">
+              <div className="price-container">
+                <p className="text-gray-500 text-sm line-through">Rp. 1,000,000</p>
+                <p className="text-teal-500 text-2xl font-bold">Rp. 299,000</p>
+              </div>
+              <Link
+                href="/detail"
+                className="px-6 py-3 bg-yellow-400 hover:bg-yellow-500 rounded-md font-semibold text-gray-900 transition-colors duration-200"
+              >
+                Beli Sekarang
+              </Link>
+            </div>
+          </div>
+          <div className="w-96 mx-auto rounded-lg shadow-lg bg-white border border-gray-200">
+            {/* Card Header with Image */}
+            <div className="relative w-full h-64">
+              <Image
+                src="/image-15.png"
+                alt="Digital Marketing Bootcamp"
+                fill={true}
+                className="object-cover"
+              />
+            </div>
+
+            {/* Card Title */}
+            <div className="p-4 pb-2">
+              <h1 className="text-xl font-bold text-gray-900 leading-tight truncate">
+                DIGITAL MARKETING: FULLSTACK INTENSIVE BOOTCAMP
+              </h1>
+            </div>
+
+            {/* Card Body with Price and CTA */}
+            <div className="p-4 flex flex-row justify-between items-center">
+              <div className="price-container">
+                <p className="text-gray-500 text-sm line-through">Rp. 1,000,000</p>
+                <p className="text-teal-500 text-2xl font-bold">Rp. 299,000</p>
+              </div>
+              <Link
+                href="/"
+                className="px-6 py-3 bg-yellow-400 hover:bg-yellow-500 rounded-md font-semibold text-gray-900 transition-colors duration-200"
+              >
+                Beli Sekarang
+              </Link>
+            </div>
+          </div>
+          <div className="w-96 mx-auto rounded-lg shadow-lg bg-white border border-gray-200">
+            {/* Card Header with Image */}
+            <div className="relative w-full h-64">
+              <Image
+                src="/image-15.png"
+                alt="Digital Marketing Bootcamp"
+                fill={true}
+                className="object-cover"
+              />
+            </div>
+
+            {/* Card Title */}
+            <div className="p-4 pb-2">
+              <h1 className="text-xl font-bold text-gray-900 leading-tight truncate">
+                DIGITAL MARKETING: FULLSTACK INTENSIVE BOOTCAMP
+              </h1>
+            </div>
+
+            {/* Card Body with Price and CTA */}
+            <div className="p-4 flex flex-row justify-between items-center">
+              <div className="price-container">
+                <p className="text-gray-500 text-sm line-through">Rp. 1,000,000</p>
+                <p className="text-teal-500 text-2xl font-bold">Rp. 299,000</p>
+              </div>
+              <Link
+                href="/"
+                className="px-6 py-3 bg-yellow-400 hover:bg-yellow-500 rounded-md font-semibold text-gray-900 transition-colors duration-200"
+              >
+                Beli Sekarang
+              </Link>
+            </div>
+          </div>
+          <div className="w-96 mx-auto rounded-lg shadow-lg bg-white border border-gray-200">
+            {/* Card Header with Image */}
+            <div className="relative w-full h-64">
+              <Image
+                src="/image-15.png"
+                alt="Digital Marketing Bootcamp"
+                fill={true}
+                className="object-cover"
+              />
+            </div>
+
+            {/* Card Title */}
+            <div className="p-4 pb-2">
+              <h1 className="text-xl font-bold text-gray-900 leading-tight truncate">
+                DIGITAL MARKETING: FULLSTACK INTENSIVE BOOTCAMP
+              </h1>
+            </div>
+
+            {/* Card Body with Price and CTA */}
+            <div className="p-4 flex flex-row justify-between items-center">
+              <div className="price-container">
+                <p className="text-gray-500 text-sm line-through">Rp. 1,000,000</p>
+                <p className="text-teal-500 text-2xl font-bold">Rp. 299,000</p>
+              </div>
+              <Link
+                href="/"
+                className="px-6 py-3 bg-yellow-400 hover:bg-yellow-500 rounded-md font-semibold text-gray-900 transition-colors duration-200"
+              >
+                Beli Sekarang
+              </Link>
+            </div>
+          </div>
+        </div>
+      </Card>
 
     </div >
 
